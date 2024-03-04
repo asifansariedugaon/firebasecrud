@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "603818146653",
+    "project_id": "fir-console-29de1",
+    "storage_bucket": "fir-console-29de1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603818146653:android:faa36d710bce282d2bc6b4",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603818146653-9mejj52uvsml6pujfsvudbcngcv5ovn8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase",
+            "certificate_hash": "41fa50e37801b4372b1922ac006149b084581aa8"
+          }
+        },
+        {
+          "client_id": "603818146653-qul6edfrjp0fm1rc5b8q3n10ijavhq91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH5DPwgBWlL53EJi-uJop_JPKfjgZ6eTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603818146653-qul6edfrjp0fm1rc5b8q3n10ijavhq91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603818146653:android:ee1ea334b9d2165a2bc6b4",
+        "android_client_info": {
+          "package_name": "com.example.firebasecrud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603818146653-qul6edfrjp0fm1rc5b8q3n10ijavhq91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH5DPwgBWlL53EJi-uJop_JPKfjgZ6eTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603818146653-qul6edfrjp0fm1rc5b8q3n10ijavhq91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

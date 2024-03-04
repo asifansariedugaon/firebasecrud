@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateDetailActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/updateName_appCompatEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter Name"
+            tools:ignore="HardcodedText" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/updateEmail_appCompatEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"
+            tools:ignore="HardcodedText" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/updateNumber_appCompatEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter Number"
+            android:inputType="number"
+            tools:ignore="HardcodedText" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/updateDetail_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="UPDATE"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
